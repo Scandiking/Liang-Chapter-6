@@ -1,6 +1,6 @@
 # University of South-Eastern Norway
 ## Information Technology and Information Systems
-### Object oriented programming 2 (OBJ2000)
+### Object-oriented programming 2 (OBJ2000)
 
 This is a repo consisting of the programs as featured in the course book _Introduction to Java Programming and Data Structures_ by _Y. Daniel Liang_. As per usual the "during-chapter" programs will be found with descriptive file names and the "after-chapter" programming exercises, referred to as "section" in the course book will be featured in the list beneath the __Objectives__-list with descriptive names and hyperlinks to its respective GitHub URL instead.
 
@@ -80,18 +80,18 @@ The __section__ classes are programming exercises. These come after each chapter
 
 #### Listing
 
-- 6.1 [TestMax]()
-- 6.2 [TestVoidMethod]()
-- 6.3 [TestReturnGradeMethod]()
-- 6.4 [Increment]()
-- 6.5 [TestPassByValue]()
-- 6.6 [GreatestCommonDivisorMethod]()
-- 6.7 [PrimeNumberMethod]()
-- 6.8 [Hex2Dec]()
-- 6.9 [TestMethodOverloading]()
-- 6.10 [RandomCharacter]()
-- 6.11 [TestRandomCharacter]()
-- 6.12 [PrintCalendar]()
+- 6.1 [TestMax](https://github.com/Scandiking/Liang-Chapter-6/blob/master/TestMax.java)
+- 6.2 [TestVoidMethod](https://github.com/Scandiking/Liang-Chapter-6/blob/master/TestVoidMethod.java)
+- 6.3 [TestReturnGradeMethod](https://github.com/Scandiking/Liang-Chapter-6/blob/master/TestReturnGradeMethod.java)
+- 6.4 [Increment](https://github.com/Scandiking/Liang-Chapter-6/blob/master/Increment.java)
+- 6.5 [TestPassByValue](https://github.com/Scandiking/Liang-Chapter-6/blob/master/TestPassByValue.java)
+- 6.6 [GreatestCommonDivisorMethod](https://github.com/Scandiking/Liang-Chapter-6/blob/master/GreatestCommonDivisorMethod.java)
+- 6.7 [PrimeNumberMethod](https://github.com/Scandiking/Liang-Chapter-6/blob/master/PrimeNumberMethod.java)
+- 6.8 [Hex2Dec](https://github.com/Scandiking/Liang-Chapter-6/blob/master/Hex2Dec.java)
+- 6.9 [TestMethodOverloading](https://github.com/Scandiking/Liang-Chapter-6/blob/master/TestMethodOverloading.java)
+- 6.10 [RandomCharacter](https://github.com/Scandiking/Liang-Chapter-6/blob/master/RandomCharacter.java)
+- 6.11 [TestRandomCharacter](https://github.com/Scandiking/Liang-Chapter-6/blob/master/TestRandomCharacter.java)
+- 6.12 [PrintCalendar](https://github.com/Scandiking/Liang-Chapter-6/blob/master/PrintCalendar.java)
 
 
 [^1]: Liang, Y. D. (2020), _Introduction to Java Programming and Data Structures_. Pearson Education.
