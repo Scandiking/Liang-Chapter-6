@@ -7,22 +7,19 @@ This is a repo consisting of the programs as featured in the course book _Introd
 ---
 
 __Objectives__ 
-> - To write programs for executing statements repeatedly using a `while` loop
-> - To write loops for the guessing number problem
-> - To follow the loop design strategy to develop loops
-> - To control a loop with the user confirmation or a sentinel value
-> - To obtain large input from a file using input redirection rather than typing from the keyboard
-> - To write loops using `do-while` statements
-> - To write loops using `for` statements
-> - To discover the similarities and differences of three types of loop statements
-> - To write nested loops
-> - To learn the techniques for minimizing numerical errors
-> - To learn loops from a variety of examples (`GCD`,`FutureTuition` and `Dec2Hex`).
-> - To implement program control with `break` and `continue`.
-> - To process characters in a string using a loop in a case study for palindrome
-> - To write a program that displays prime numbers
+> - To define methods with formal parameters
+> - To invoke methods with actual parameters (i.e. arguments)
+> - To define methods with a return value
+> - To define methods without a return value and distinguish the differences between void methods and value-returning methods
+> - To pass arguments by value
+> - To develop reusable code that is modular, easy to read, easy to debug, and easy to maintain
+> - To write a method that converts hexadecimals to decimals
+> - To use method overloading and understand ambiguous overloading
+> - To determine the scope of variables
+> - To apply the concept of method abstraction in software development
+> - To design and implement methods using stepwise refinement
 > 
-> Liang, 2020, p.143[^1]
+> Liang, 2020, p.227[^1]
 
 ---
 
@@ -32,147 +29,69 @@ The __section__ classes are programming exercises. These come after each chapter
 
 #### Section (programming exercises)
 
-- 5.1 Pass or fail
-- 5.2 Repeat multiplication
-- 5.3 Conversion from C° to F°
-- 5.4 Conversion from inch to centimeter
-- 5.5 Conversion from C° to F° and F° to C°
-- 5.6 Conversion from square meter to ping
-- 5.7 Financial application: compute future tuition
-- 5.8 Find the highest score
-- 5.9 Find the two lowest scores
-- 5.10 Find numbers divisible by 3 and 4
-- 5.11 Find numbers divisible by 3 or 4, but not both
-- 5.12 Find the smallest n such that n<sup>3</sup> > 12,000 
-- 5.13 Find the largest n such that n<sup>2</sup> < 12,000
-- 5.14 Compute the greatest common divisor
-- 5.15 Display the ASCII character table
-- 5.16 Find the factors of an integer
-- 5.17 Display pyramid
-- 5.18 Display four patterns using loops
-- 5.19 Display numbers in a pyramid pattern
-- 5.20 Display prime numbers between 2 and 1,200
+- 6.1 [Math: pentagonal numbers]()
+- 6.2 [Sum the digits in an integer]() `*`
+- 6.3 [Palindrome integer]() `**`
+- 6.4 [Display an integer reversed]() `*`
+- 6.5 [Sort three numbers]() `*`
+- 6.6 [Display patterns]() `*`
+- 6.7 [Financial application: compute the future investment value]() `*`
+- 6.8 [Conversions between mile and kilometer]()
+- 6.9 [Conversions between pounds and kilograms]()
+- 6.10 [Use the `isPrime` Method]()
+- 6.11 [Financial application: compute admissions]()
+- 6.12 [Display numbers]()
+- 6.13 [Sum series]() `*`
+- 6.14 [Estimate PI]() `*`
+- 6.15 [Financial application: print a tax table]() `*`
+- 6.16 [Number of days in a year]() `*`
+- 6.17 [Display a matrix of 0s and 1s]() `*`
+- 6.18 [Check password]() `**`
+- 6.19 [Triangles]()
+- 6.20 [Count the letters in a string]()
+- 6.21 [Phone keypads]()
+- 6.22 [Math: approximate the square root]()
+- 6.23 [Occurences of a specified character]()
+- 6.24 [Display current date and time]()
+- 6.25 [Convert milliseconds to hours, minutes, and seconds]()
 
-##### Comprehensive
-
+#### Comprehensive
 <details>
-<summary>
-    Additional tasks that won't be done
-</summary>
+    <summary>
+        Additional tasks... (don't wait for these)
+    </summary>
 <ul>
-    <li>
-        5.21 Financial application: compare loans with various interest raters
-    </li>
-    <li>
-        5.22 Financial application. loan amortization schedule
-    </li>
-    <li>
-        5.23 Demonstrate cancellation errors
-    </li>
-    <li>
-        5.24 Sum a series
-    </li>
-    <li>
-        5.25 Compute π
-    </li>
-    <li>
-        5.26 Compute e
-    </li>
-    <li>
-        5.27 Display leap years
-    </li>
-    <li>
-        5.28 Display the first day of each month
-    </li>
-    <li>
-        5.29 Display calendars
-    </li>
-    <li>
-        5.30 Financial application: compound value
-    </li>
-    <li>
-        5.31 Financial application: compute CD value
-    </li>
-    <li>
-        5.32 Game: lottery
-    </li>
-    <li>
-        5.33 Perfect number
-    </li>
-    <li>
-        5.34 Game: scissor, rock, paper
-    </li>
-    <li>
-        5.35 Summation
-    </li>
-    <li>
-        5.36 Business application: checking ISBN
-    </li>
-    <li>
-        5.37 Decimal to binary
-    </li>
-    <li>
-        5.38 Decimal to octal
-    </li>
-    <li>
-        5.39 Financial application: find the sales amount
-    </li>
-    <li>
-        5.40 Simulation: heads or tails
-    </li>
-    <li>
-        5.41 Occurrence of max numbers
-    </li>
-    <li>
-        5.42 Financial application: find the sales amount
-    </li>
-    <li>
-        5.43 Math: combinations
-    </li>
-    <li>
-        5.44 Computer architecture: bit-level operations
-    </li>
-    <li>
-        5.45 Statistic: compute mean and standard deviation
-    </li>
-    <li>
-        5.46 Reverse a string
-    </li>
-    <li>
-        5.47 Business: check ISBN-13
-    </li>
-    <li>
-        5.48 Process string
-    </li>
-    <li>
-        5.49 Count vowels and consonants
-    </li>
-    <li>
-        5.50 Print multiplication table
-    </li>
-    <li>
-        5.51 Longest common prefix
-    </li>
+    <li>6.26 Palindromic prime</li>
+    <li>6.27 Emirp </li>
+    <li>6.28 Mersenne prime</li>
+    <li>6.29 Twin Primes</li>
+    <li>6.30 Game: craps</li>
+    <li>6.31 Financial: credit card number validation</li>
+    <li>6.32 Game: chance of winning at craps</li>
+    <li>6.33 Current date and time</li>
+    <li>6.34 Print calendar</li>
+    <li>6.35 Geometry: area of a pentagon</li>
+    <li>6.36 Geometry: area of a regular polygon</li>
+    <li>6.37 Format an integer</li>
+    <li>6.38 Generate random characters</li>
+    <li>6.39 Geometry: point position</li>
 </ul>
-
 </details>
 
 #### Listing
 
-- 5.1 [RepeatAdditionQuiz]()
-- 5.2 [GuessNumberOneTime]()
-- 5.3 [GuessNumber]()
-- 5.4 [SubtractionQuizLoop]()
-- 5.5 [SentinelValue]()
-- 5.6 TestDoWhile
-- 5.7 MultiplicationTable
-- 5.8 TestSum
-- 5.9 GreatestCommonDivisor
-- 5.10 FutureTuition
-- 5.11 Dec2Hex
-- 5.12 TestBreak
-- 5.13 TestContinue
-- 5.14 Palindrome
-- 5.15 PrimeNumber
+- 6.1 [TestMax]()
+- 6.2 [TestVoidMethod]()
+- 6.3 [TestReturnGradeMethod]()
+- 6.4 [Increment]()
+- 6.5 [TestPassByValue]()
+- 6.6 [GreatestCommonDivisorMethod]()
+- 6.7 [PrimeNumberMethod]()
+- 6.8 [Hex2Dec]()
+- 6.9 [TestMethodOverloading]()
+- 6.10 [RandomCharacter]()
+- 6.11 [TestRandomCharacter]()
+- 6.12 [PrintCalendar]()
+
 
 [^1]: Liang, Y. D. (2020), _Introduction to Java Programming and Data Structures_. Pearson Education.
